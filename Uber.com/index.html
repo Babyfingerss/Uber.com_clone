@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>uber.com</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        button {
+            cursor: grab;
+        }
+    </style>
+    </head>
+    <body>
+        <!-- navbar section -->
+        <div class="navbar">
+            <span class="nav-left">
+                <h2>Uber</h2>
+                    <p class="ride">Ride</p>
+                    <p class="drive">Drive</p>
+                    <p class="business">Business</p>
+                    <p class="ubereats">Uber Eats</p>
+                    <p class="about">About ⮟</p>
+            </span>
+                    <span class="nav-right">
+                        <div class="web">
+                        <span><img src="Uber Images/world.png" width="14px"></span>
+                        <p>EN</p>
+                        </div>
+                        <p class="helps">Help</p>
+                        <p class="login_one">Login</p>
+                        <p class="signup_one">Sign Up</p >
+        </div> 
+
+        <div class ="mapandbookaride">
+            <!-- Book a ride section -->
+            <div class="bookaride">
+                <h1 class="go">Go anywhere with Uber</h1>
+                <div class="icons">
+                    <div class="car_icon">
+                        <img class="car" src="Uber Images/car.png" alt="Ride">
+                        <p>Ride</p>
+                    </div>
+                    <div class="package_icon">
+                        <img class="package" src="Uber Images/package.png" alt="Package">
+                        <p>Package</p>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="input-location">
+                        <input type="text" placeholder="Pickup Location" class="Pickup">
+                        <!-- <img src="Uber Images/navigation.png"alt="" class="nav-icon" width="25px">
+                        <img src="Uber Images/dot.png"class="dot"width="40px">
+                        <img src="Uber Images/line.png"width="25px"class="line">
+                        <img src="Uber Images/black-square.png"class="black-square"width="7px"> -->
+                    </div>
+                        <input type="text " placeholder="Dropoff location" class="Dropoff">
+                    <div class="dateandtime">
+                        <input type="text " placeholder="Today" class="Today">
+                        <input type="text" placeholder="Now" class="Now">
+                    </div>
+                        <img src="Uber Images/time.png"width="25px"class="time">
+                        <img src="Uber Images/date.png" width="25px" class="date">
+                        <img src="Uber Images/down-arrow.png" width="20px" class="down-arrow">
+                        <img src="Uber Images/navigation.png"alt="" class="nav-icon" width="25px">
+                        <img src="Uber Images/dot.png"class="dot"width="40px">
+                        <img src="Uber Images/line.png"width="25px"class="line">
+                        <img src="Uber Images/black-square.png"class="black-square"width="7px">
+                        <div>
+                        <button class="prices">See prices</button>
+                        </div>
+                </div>
+            </div>
+            <!-- map section -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126093.83849534571!2d7.449868049999999!3d9.024256000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e745f4cd62fd9%3A0x53bd17b4a20ea12b!2sAbuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1732613502333!5m2!1sen!2sng" width="550" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- login section -->
+        <div class="login-section">
+            <div class="login-details">
+                <h2 class="logintext">Log in to see your recent activity</h2>
+                <p class="logintext2">View past trips, tailored suggestions, support resources, and more.</p> 
+                <button class="Loginbutton">Log in to your account</button>
+                <p class="Sign-up">Don’t have an Uber account? Sign up</p>
+            </div>
+            <div class="login-image">
+                <img class="login" src="Uber Images/login-image.webp" alt="">
+            </div>
+        </div>
+        <!-- suggestions section -->
+        
+         <h2 class="suggestion-title">Suggestions</h2>
+        <div class="suggestions-section">
+            <div class="Ride">
+                <div class="ridetext">
+                <p class="rideheader">Ride</p>
+                <p class="ridebody">Go anywhere with Uber. Request a ride, hop in, and go.</p>
+                <button class="ride-button">Details</button>
+                </div>
+                <div class="rideimage">
+                <img src="Uber Images/car-suggestions.png" width="120px">
+                </div>
+            </div>
+            <div class="Package">
+                <div class="packagetext">
+                <p class="packageheader">Package</p>
+                <p class="packagebody">Uber Connect makes same-day delivery easier than ever.</p>
+                <button class="package-button">Details</button>
+                </div>
+                <img src="Uber Images/package-suggestions.png"> 
+            </div>
+            <div class="Reserve">
+                <div class="reservetext">
+                <p class="reserveheader">Reserve</p>
+                <p class="reservebody">Reserve your ride in advance so you can relax on the day of your trip.</p>
+                <button class="reserve-button">Details</button>
+                </div>
+                <img src="Uber Images/reserve-suggestions.png" width="200px"> 
+            </div>
+        </div>
+        <!-- get started section -->
+        <div class="getstarted-section">
+            <div class="getstarted-image">
+                <img class="getstartedimage" src="Uber Images/getstarted-image.webp">
+            </div>
+            <div class="getstartedtext">
+                    <h2 class="Drive">Drive when you want, make what you need</h2>
+                    <p class="Drivetext">Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.</p>
+                <div class="getstarted">
+                    <button class="getstartedbutton">Get started</button>
+                    <p class="signin">Already have an account? Sign in</p>
+                </div>
+            </div>
+        </div>
+        <!-- uber business section -->
+        <div class="Uberbusiness-section">
+            <div class="Uberbusiness">
+                <h2 class="Uberbusinesstext">The Uber you know, reimagined for business</h2>
+                <p class="Businesstext">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+                
+                <div class="getstarted2">
+                    <button class="getstartedbutton2">Get started</button>
+                    <p class="solutions">Check out our solutions</p>
+                </div>
+            </div>
+            <div class="uberbusiness-image">
+                <img class="uberbusinessimage" src="Uber Images/Uber business.webp">
+            </div>
+        </div>
+        <!-- barcode section -->
+        <div class="completebarcode-section">
+            <h1 class="barcode-sectiontext">Itߴs easier in the apps</h1>
+            <div class="barcodes">
+                <div class="Barcode1-section">
+                    <img class="Barcode1" src="Uber Images/Barcode1.webp">
+                    <div class="Barcode1a-section">
+                        <h4 class="text1">Download the Uber app</h4>
+                        <p class="text1a">Scan to download</p>
+                    </div>
+                </div>
+                <div class="Barcode2-section">
+                        <img class="Barcode2" src="Uber Images/Barcode2.webp">
+                    <div class="Barcode2a-section">
+                        <h4 class="text2">Download the Uber app</h4>
+                        <p class="text2a">Scan to download</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- bottom-black section -->
+    <div class="bottom-blacksection">
+        <div class="help">
+            <p class="uberbottom">Uber</p>
+            <p class="visit">Visit Help Center</p>
+        </div>
+        <div class="listouts">
+            <div class="company">
+                <p class="companytext">Company</p>
+                <div class="listouts1">
+                    <p>About us</p>
+                    <p>Our offerings</p>
+                    <p>Newsroom</p>
+                    <p>Investors</p>
+                    <p>Blog</p>
+                    <p>Careers</p>
+                </div>
+            </div>
+            <div class="products">
+                <p class="productstext">Products</p>
+                <div class="listouts1">
+                    <p>Ride</p>
+                    <p>Drive</p>
+                    <p>Eat</p>
+                    <p>Uber Freight</p>
+                    <p>Gift cards</p>
+                </div>
+            </div>
+            <div class="globalcitizenship">
+                <p class="globalcitizenshiptext">Global citizenship</p>
+                <div class="listouts1">
+                    <p>Safety</p>
+                    <p>Diversity and Inclusion</p>
+                    <p>Sustainability</p>
+                </div>
+            </div>
+            <div class="travel">
+            <p class="traveltext">Travel</p> 
+            <div class="listouts1">
+                <p>Reserve</p>
+                <p>Cities</p>
+            </div>
+            </div>
+        </div>
+        <div class="logoline">
+            <div class="logo">
+                <div class="facebook"><img src="Uber Images/facebook.png" alt=" "width="15px"></div>
+                <div class="x"><img src="Uber Images/xlogo.jpg" alt=" " width="20px"></div>
+                <div class="youtube"><img src="Uber Images/youtube.jpg" alt=" "width="20px"></div>
+                <div class="linkedin"><img src="Uber Images/linked in logo.jpg" alt=" " width="15px"></div>
+                <div class="insta"><img src="Uber Images/insta_logo.png" alt=" "width ="20px"></div>
+            </div>
+            <div class="locationpin">
+                <div class="web2">
+                    <span><img src="Uber Images/world.png" width="14px"></span>
+                    <p>English</p>
+                </div>
+                <div class="location">
+                    <span><img class="pin" src="Uber Images/location.png" width="14px"></span>
+                    <p>Abuja</p>
+                </div>
+            </div>
+        </div> 
+        <div class="download">
+            <img class= "appstore"src="Uber Images/googlestore_download.svg" width="130px">  
+            <img src="Uber Images/appsore_download.svg" width="130px">  
+        </div>
+        <div>
+            <p class="tech">© 2024 Uber Technologies Inc.</p>
+            <div class="PAT">
+                <p class="privacy">Privacy</p>
+                <p class="access">Accessibility</p>
+                <p class="terms">Terms</p>
+            </div>
+        </div>
+    </div>
+</html>
+

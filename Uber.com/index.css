@@ -1,0 +1,591 @@
+body{
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+/* navbar section */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px;
+    color: aliceblue; 
+    font-size: 15px; 
+}
+.web{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 32px;
+}  
+.web:hover{
+    border-radius: 20px;
+    background-color: #3A3D3E;
+}
+
+.nav-left, .nav-right {
+            display: flex;
+            gap: 30px;
+            justify-content:space-evenly;
+            align-items: center;
+            margin: 0px 140px 0px 120px;
+}
+.signup_one{
+    border: whitesmoke;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 20px; 
+}
+.ride, .drive, .business, .ubereats, .about, .helps, .signup_one, .login_one{
+    padding: 8px 12px;
+}
+.ride:hover, .drive:hover, .business:hover, .ubereats:hover, .about:hover, .helps:hover, .login_one:hover{
+    background-color: #3A3D3E;
+    border-radius: 15px;
+}
+.signup_one:hover{
+    background: #E8E8E8;
+    color: palevioletred;
+}
+
+/* book a ride section */
+.bookaride{
+    margin: 0px 0px 0px 180px;
+    gap: 40px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: start;
+}
+.go{
+    margin: 70px 0px 0px 0px;
+    gap: 40px;  
+    font-family: sans-serif;
+    font-size: 50px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin: 0px;
+    justify-content: start;
+    margin-top: -35px;
+}
+.car:hover, .package:hover{
+    background-color: #CBD0D2;
+}
+.car, .package{
+    width: 20px;
+    gap: 30px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #E8E8E8; 
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    size: 20%;
+    justify-content: center;
+    gap: 36px;
+    margin-right: -200px;
+}
+.nav-icon{
+    margin: -174px 0px 0px 330px;
+}
+.dot{
+    margin: -70px 0px 0px 0px;
+}
+.line{
+    margin: -50px 0px 0px 7.5px;
+    height: 48px;
+}
+.black-square{
+    margin: -35px 0px 0px 16px;
+}
+.Pickup, .Dropoff {
+    width: 85%; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    background: #f3f3f3; 
+    border-radius: 8px;  
+    transition: box-shadow 0.3s ease;
+    border: 0px;
+    margin-top: -20px;
+    text-indent: 25px;
+}
+.dateandtime{
+    gap: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.Today, .Now{
+    width: 100%;
+    width: 150px; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    background: #f3f3f3; 
+    border-radius: 8px; 
+    border: 0px;
+    margin-top: -30px;
+    text-indent: 25px;
+}
+.time{
+    margin: -64px 0px 0px 200px;
+    width: 15px; 
+}
+.date{
+    margin: -53px 0px 0px 10px;
+    width: 15px; 
+}
+.down-arrow{
+    margin: -50px 0px 0px 340px;
+    width: 15px;
+}
+.prices{
+    width: 130px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 3px; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-top: 60px;
+} 
+.prices:hover{
+    background-color: #3A3D3E;
+}
+.mapandbookaride{
+    display: flex;
+    flex-direction: row;
+}
+/* map section */
+.map{
+    position: relative;
+    right: -80px; 
+    margin-top: 70px;
+    width: px;
+    border-radius: 10px;
+}
+/* login section */
+.login-section{
+    display: flex;
+    flex-direction: row;
+}
+.login-details{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 180px;
+    gap: 40px;
+    min-height: 10vh;
+    width: 35%;
+    align-items: start;
+    margin-top: 135px;
+}
+.login-image{
+    position: relative;
+    margin-left: 130px; 
+    margin-top: 135px;
+    width: -1000px;
+}
+.login{
+    width: 500px;
+    border-radius: 8px;
+}
+.Loginbutton{
+    width: 220px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 3px; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-top: -25px;
+    font-weight: normal;
+}
+.Loginbutton:hover{
+    background-color: #3A3D3E;
+}
+.logintext{
+    margin: 0px 0px 40px 0px;
+    gap: 40px;  
+    font-family: sans-serif;
+    font-size: 50px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.logintext2{
+    margin: 0px 0px 45px 0px;
+    font-family: sans-serif;
+    color: #333333;
+}
+.Sign-up{
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.2px; 
+    text-decoration-color: lightgray; 
+}
+.Sign-up:hover{
+     text-decoration-color:black;
+}
+/* Suggestions-section */
+.suggestion-title{
+    margin: 100px 0px 0px 178px;
+    font-size: 40px;
+}
+.suggestions-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0px 0px 160px; 
+    
+}
+.Ride, .Package, .Reserve{
+    padding: 12px 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: flex;
+    width: 330px;
+    height: 130px;
+    margin-left: -180px;
+}
+.rideheader, .packageheader, .reserveheader{
+    font-size: 15px;
+    font-weight: 600;
+}
+.ridebody, .packagebody, .reservebody {
+    font-weight: 400;
+    font-size: 12px;
+}
+.ride-button, .package-button, .reserve-button{
+    width: 80px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 2px;
+    border: none;
+    background-color: white;
+    outline: none;
+    font-weight: normal;
+}
+.ride-button:hover, .package-button:hover, .reserve-button:hover{
+    background-color: #E6E8E8;
+}
+/* get started section */
+.getstartedimage{
+    width: 560px;
+}
+.getstarted-section{
+    display: flex;
+    flex-direction: row;
+    margin: 130px 0px 0px 180px;
+    gap: 125px;
+}
+.getstartedtext{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+.getstarted{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: -15px;
+}
+.Drive{
+    margin: 70px 0px 0px 0px;
+    gap: 40px;  
+    font-family: sans-serif;
+    font-size: 50px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.Drivetext{
+    margin: 35px 0px 45px 0px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #333333;
+}
+.getstartedbutton{
+    width: 135px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.signin{
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.2px; 
+    text-decoration-color: lightgray;
+}
+
+/* uber business section */
+.Uberbusiness-section{
+    display: flex;
+    flex-direction: row;
+    margin: 130px 0px 0px 180px;
+    gap: 125px;
+}
+.Uberbusiness{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.Uberbusinesstext{
+    margin: 70px 0px 0px 0px;
+    gap: 40px;  
+    font-family: sans-serif;
+    font-size: 50px;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #333333;
+    line-height: 1.3;
+}
+.Businesstext{
+    margin: 33px 0px 33px 0px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333333;
+}
+.getstarted2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.getstartedbutton2{
+    width: 135px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.getstartedbutton2:hover, .getstartedbutton:hover{
+    background-color: #3A3D3E;
+}
+.solutions{
+    font-weight: 300;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1.2px; 
+    text-decoration-color: lightgray;
+}
+.solutions:hover, .signin:hover{
+    text-decoration-color: black;
+}
+
+/* <!-- barcode section --> */
+.completebarcode-section{
+    background-color: #f3f3f3;
+    height: 400px;
+}
+    
+.barcode-sectiontext{
+    margin: 75px 0px 1px 180px; 
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 67px;
+    
+}
+.barcodes{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin: 30px 0px 10px 180px;
+}
+.Barcode1-section, .Barcode2-section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 510px;
+    padding: 25px 25px;
+    height: 150px;
+    gap: 20px;
+}
+.Barcode1a-section, .Barcode2a-section{
+    display: flex;
+    flex-direction: column;
+}
+.text1, .text2{
+    margin: 40px 0px 0px 0px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 25px;
+}
+.text1a, .text2a{
+    margin-top: -2px;
+}
+
+/* <!-- bottom-black section --> */
+.bottom-blacksection{
+    background-color: #000;
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+.help{
+    margin: 0px 0px 0px 180px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+    padding-top: 80px;
+}
+.visit:hover{
+    text-decoration: underline;
+    text-underline-offset: 30px;
+}
+.uberbottom{
+    font-size: 25px;
+}
+.listouts{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.listouts1{
+    line-height: 1.4;
+    font-size: 14px;
+}
+.listouts1 p:hover {
+    color: darkgrey;
+    
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 180px;
+    line-height: 0.4;
+    font-size: 15px;
+    font-weight: 300;
+}
+.companytext, .productstext, .globalcitizenshiptext, .traveltext{
+    font-weight: bold;
+    font-size: 20px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 200px;
+    line-height: 0.4;
+    font-size: 15px;
+    font-weight: 300;
+}
+.globalcitizenship{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 200px;
+    line-height: 0.4;
+    font-size: 15px;
+    font-weight: 300;
+}
+.travel{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 0px 200px;
+    line-height: 0.4;
+    font-size: 15px;
+    font-weight: 300;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    margin: 100px 800px 0px 120px;
+    
+}
+.logo :hover{
+    background-color: #3A3D3E;
+    border-radius: 10px; 
+}
+.facebook, .x, .youtube, .linkedin, .insta{
+    padding: 15px;
+   
+}
+.locationpin{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: -35px 140px 0px 1000px;
+    
+}
+.locationpin :hover{
+    background-color: #3A3D3E;
+    border-radius: 10px;
+}
+.web2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 4px 0px 4px;
+
+}  
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 6px 0px 6px;
+    
+}
+.download{
+    margin: 40px 0px 0px 180px;
+}
+.appstore{
+    margin-right: 5px;
+}
+.tech{
+    margin: 40px 0px 0px 180px;
+}
+.PAT{
+    display: flex;
+    justify-content: flex-start    ;
+    margin: -28px 0px 0px 1130px;
+}
+.tech, .privacy, .access, .terms{
+    font-size: 12px;
+    color: lightgray;
+    font-weight: 300;
+    
+}
+.privacy, .access, .terms{
+    margin-right: 30px;
+}
